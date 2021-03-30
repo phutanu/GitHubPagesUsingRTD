@@ -10,7 +10,7 @@ version = '0.1'
 release = '0.1.0 beta'
 
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = '.md'
 
 # The master toctree document.
 master_doc = 'index'
