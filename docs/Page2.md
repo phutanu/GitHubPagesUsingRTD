@@ -1,6 +1,6 @@
 # Page2 Header
 
-Some **text** here. A [link](ni.com) here.
+Some **text** here. A [link](https://www.ni.com/en-us.html) here.
 
 ## Sub-chapter here
 
