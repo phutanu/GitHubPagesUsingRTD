@@ -10,7 +10,7 @@ version = '0.1'
 release = '0.1.0 beta'
 
 # source_suffix = ['.rst', '.md']
-source_suffix = ['.md', '.md']
+source_suffix = ['.md']
 
 # The master toctree document.
 master_doc = 'index'
@@ -21,4 +21,4 @@ master_doc = 'index'
 # html_theme = 'sphinx_rtd_theme'
 
 # We need MyST parser in Sphinx in order to parse .md files.
-# extensions = ["myst_parser"]
+extensions = ['recommonmark']
