@@ -10,7 +10,10 @@ version = '0.1'
 release = '0.1.0 beta'
 
 # source_suffix = ['.rst', '.md']
-source_suffix = ['.md', '.rst']
+source_suffix = [
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+]
 
 # The master toctree document.
 master_doc = 'index'
