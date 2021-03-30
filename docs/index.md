@@ -6,7 +6,7 @@
 VS Manual
 ==============================================
 
-.. include:: ../README.md
+../README.md
 
 .. toctree::
    :maxdepth: 3
