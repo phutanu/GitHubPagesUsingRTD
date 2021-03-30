@@ -19,3 +19,6 @@ master_doc = 'index'
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+
+# We need MyST parser in Sphinx in order to parse .md files.
+extensions = ["myst_parser"]
