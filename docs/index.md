@@ -20,6 +20,6 @@ VS Manual
 Indices and tables
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
+* :ref:`Page1`
+* :ref:`Page2`
 * :ref:`search`
