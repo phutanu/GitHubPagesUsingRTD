@@ -12,9 +12,11 @@ VS Manual
    :maxdepth: 3
    :caption: User Documentation:
 
-   Page1
-   Page2
-   Page3
+   Page1.md
+   
+   Page2.md
+   
+   Page3.md
 
 
 
