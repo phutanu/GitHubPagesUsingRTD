@@ -10,4 +10,4 @@ Some other text here
 
 Some text here
 
-// END Page2 //
+END Page2
