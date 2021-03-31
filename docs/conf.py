@@ -26,7 +26,7 @@ master_doc = 'index'
 # a list of builtin themes.
 #
 # html_theme = 'sphinx_rtd_theme'
-html_theme = 'press'
+html_theme = 'sphinx_press_theme'
 
 # We need a markdown parser in Sphinx in order to parse .md files.
 extensions = [
