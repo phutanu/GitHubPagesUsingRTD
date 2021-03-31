@@ -14,10 +14,10 @@ version = '0.2'
 release = '0.2.0 beta'
 
 # source_suffix = ['.rst', '.md']
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'CommonMarkParser'
-}
+    # source_suffix = {
+        # '.rst': 'restructuredtext',
+        # '.md': 'CommonMarkParser'
+    # }
 
 # The master toctree document.
 master_doc = 'index'
@@ -30,8 +30,8 @@ master_doc = 'index'
 
 # We need a markdown parser in Sphinx in order to parse .md files.
     # extensions = [
-    'recommonmark'
-             ]
+    #'recommonmark'
+    #         ]
 
 # Build PDF & ePub
 formats:
