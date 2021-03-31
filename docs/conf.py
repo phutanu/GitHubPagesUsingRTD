@@ -1,7 +1,6 @@
 # At top on conf.py (with other import statements)
 import recommonmark
 from recommonmark.transform import AutoStructify
-import sphinx_veldus_theme
 
 # -- Project information -----------------------------------------------------
 
@@ -31,8 +30,7 @@ html_theme = 'press'
 
 # We need MyST parser in Sphinx in order to parse .md files.
 extensions = [
-    'recommonmark',
-    'sphinx_veldus_theme'
+    'recommonmark'
              ]
 
 # At the bottom of conf.py
