@@ -16,7 +16,7 @@ release = '0.2.0 beta'
 # source_suffix = ['.rst', '.md']
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.md': 'markdown'
+    '.md': 'CommonMarkParser'
 }
 
 # The master toctree document.
