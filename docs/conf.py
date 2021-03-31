@@ -33,11 +33,6 @@ extensions = [
     'recommonmark'
 ]
 
-# Build PDF & ePub
-formats:
-  - epub
-  - pdf
-
 # At the bottom of conf.py
 def setup(app):
 app.add_config_value('recommonmark_config', {
