@@ -25,8 +25,8 @@ master_doc = 'index'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
-# html_theme = 'press'
+# html_theme = 'sphinx_rtd_theme'
+html_theme = 'press'
 
 # We need a markdown parser in Sphinx in order to parse .md files.
 extensions = [
