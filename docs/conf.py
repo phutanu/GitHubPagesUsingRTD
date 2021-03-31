@@ -26,12 +26,17 @@ master_doc = 'index'
 # a list of builtin themes.
 #
 # html_theme = 'sphinx_rtd_theme'
-html_theme = 'press'
+# html_theme = 'press'
 
-# We need MyST parser in Sphinx in order to parse .md files.
+# We need a markdown parser in Sphinx in order to parse .md files.
 extensions = [
     'recommonmark'
              ]
+
+# Build PDF & ePub
+formats:
+  - epub
+  - pdf
 
 # At the bottom of conf.py
 def setup(app):
