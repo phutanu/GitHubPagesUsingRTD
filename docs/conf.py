@@ -8,6 +8,8 @@ project = 'niveristand-manual'
 copyright = '2021, National Instruments'
 author = 'National Instruments'
 
+github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/doc/'
+
 # The short X.Y version
 version = '0.2'
 # The full version, including alpha/beta/rc tags
