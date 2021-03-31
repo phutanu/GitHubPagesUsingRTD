@@ -1,5 +1,5 @@
 # At top on conf.py (with other import statements)
-# import recommonmark
+import recommonmark
 # from recommonmark.parser import CommonMarkParser
 
 # -- Project information -----------------------------------------------------
