@@ -1,6 +1,6 @@
 # At top on conf.py (with other import statements)
 import recommonmark
-from recommonmark.transform import AutoStructify
+from recommonmark.parser import CommonMarkParser
 
 # -- Project information -----------------------------------------------------
 
@@ -12,6 +12,11 @@ author = 'National Instruments'
 version = '0.2'
 # The full version, including alpha/beta/rc tags
 release = '0.2.0 beta'
+
+# source_parsers
+source_parsers = {
+    '.md': CommonMarkParser,
+}
 
 # source_suffix = ['.rst', '.md']
 source_suffix = [
