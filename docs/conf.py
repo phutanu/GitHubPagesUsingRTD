@@ -1,6 +1,6 @@
 # At top on conf.py (with other import statements)
-    # import recommonmark
-    # from recommonmark.transform import AutoStructify
+import recommonmark
+from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
@@ -14,10 +14,10 @@ version = '0.2'
 release = '0.2.0 beta'
 
 # source_suffix = ['.rst', '.md']
-    # source_suffix = {
-        # '.rst': 'restructuredtext',
-        # '.md': 'CommonMarkParser'
-    # }
+source_suffix = {
+        '.rst': 'restructuredtext',
+        '.md': 'CommonMarkParser'
+}
 
 # The master toctree document.
 master_doc = 'index'
@@ -29,9 +29,9 @@ html_theme = 'sphinx_rtd_theme'
 # html_theme = 'press'
 
 # We need a markdown parser in Sphinx in order to parse .md files.
-    # extensions = [
-    #'recommonmark'
-    #         ]
+extensions = [
+    'recommonmark'
+]
 
 # Build PDF & ePub
 formats:
@@ -39,9 +39,9 @@ formats:
   - pdf
 
 # At the bottom of conf.py
-    # def setup(app):
-    #app.add_config_value('recommonmark_config', {
-    #        'url_resolver': lambda url: github_doc_root + url,
-    #        'auto_toc_tree_section': 'Contents',
-    #        }, True)
-    #app.add_transform(AutoStructify)
+def setup(app):
+app.add_config_value('recommonmark_config', {
+        'url_resolver': lambda url: github_doc_root + url,
+        'auto_toc_tree_section': 'Contents',
+    }, True)
+app.add_transform(AutoStructify)
