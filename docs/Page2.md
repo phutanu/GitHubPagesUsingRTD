@@ -10,6 +10,6 @@ Some other text here
 
 ### Sub-sub chapter there
 
-Some text here
+Some sub-chapter text here
 
 END Page2
