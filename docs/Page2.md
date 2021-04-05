@@ -1,10 +1,8 @@
-Page2
-================
+# Page2 Heading
 
 Some **text** here. A [link](https://www.ni.com/en-us.html) here.
 
-Sub-chapter here
------------------
+## Sub-chapter here
 
 Some other text here
 
