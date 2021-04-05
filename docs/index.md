@@ -9,8 +9,8 @@ Contents
 ---------
 
 * [Page1](Page1.md)
-* [Page2](Page2.md)
 * [Page3](Page3.md)
+* [Page2](Page2.md)
 
 ## Markdown
 
