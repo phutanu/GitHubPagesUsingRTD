@@ -1,4 +1,4 @@
-Page2 Header
+Page2
 ================
 
 Some **text** here. A [link](https://www.ni.com/en-us.html) here.
