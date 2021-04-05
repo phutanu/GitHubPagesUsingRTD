@@ -1,4 +1,4 @@
-Page1 Header
+Page1
 ========================
 
 ```eval_rst
