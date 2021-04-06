@@ -53,9 +53,9 @@ master_doc = 'index'
 # General information about the project.
 project = u'VeriStand Manual'
 copyright = u'2021 National Instruments'
-author = u'John Doe and contributors'
+author = u'National Instruments'
 
-github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/docs/'
+# github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/docs/'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -71,7 +71,7 @@ release = recommonmark.__version__
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+# language = None
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -230,7 +230,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'VS Manual.tex', u'VeriStand Manual',
-   u'John Doe and contributors', 'manual'),
+   u'National Instruments', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
