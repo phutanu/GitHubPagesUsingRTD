@@ -15,15 +15,15 @@
 # import sys
 # import os
 # import shlex
+import recommonmark
+from recommonmark.transform import AutoStructify
+
+source_suffix = ['.rst', '.md']
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 # sys.path.insert(0, os.path.abspath('..'))
-import recommonmark
-from recommonmark.transform import AutoStructify
-
-source_suffix = ['.rst', '.md']
 
 # -- General configuration ------------------------------------------------
 
@@ -37,8 +37,8 @@ extensions = [
     'recommonmark',
 ]
 
-    #   'sphinx.ext.autodoc',
-    #   'sphinx.ext.napoleon',
+    #  'sphinx.ext.autodoc',
+    #  'sphinx.ext.napoleon',
     #  'sphinx.ext.mathjax',
 
 # Add any paths that contain templates here, relative to this directory.
