@@ -65,16 +65,27 @@ Some text
 | body row 4             |            | - body elements.    |
 +------------------------+------------+---------------------+
 ```
+```eval_rst
++-----------------+------------------+-------------+----------+-------------------------------------------------------------------------------------------------------------------------+
+| Tool            | Purpose          | Granularity | Location | Details                                                                                                                 |
++=================+==================+=============+==========+=========================================================================================================================+
+| LabVIEW         | Debugging        | N/A         | - `Console Viewer: <https://www.ni.com/documentation/en/veristand/latest/manual/viewing-console-output/>`_                         |
+| Debugging       |                  |             | - LabVIEW                                                                                                                          |
+| Tools           |                  |             | - Execution                                                                                                                        |
++-----------------+------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+```
+
+
 
 ```eval_rst
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
-| Technique            | Useful For          | Granularity | Caveats                                                                                                                            |
+| Tool            | Purpose          | Granularity | Location | Details                                                                                                                            |
 +======================+=====================+=============+====================================================================================================================================+
-| LabVIEW's Built-in   | Debugging           | N/A         | - Useful before the LabVIEW code has been merged into the custom device framework.                                                 |
-| Debugging Tools      |                     |             | - LabVIEW debugging hooks do affect timing.                                                                                        |
-|                      |                     |             | - Execution highlighting drastically affects VI timing.                                                                            |
+| LabVIEW         | Debugging           | N/A         | - Useful before the LabVIEW code has been merged into the custom device framework.                                                 |
+| Debugging       |                     |             | - LabVIEW debugging hooks do affect timing.                                                                                        |
+| Tools           |                     |             | - Execution highlighting drastically affects VI timing.                                                                            |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
-| Console Viewer       | Debugging /         | Low         | - Periodic snapshot of utilization, transients and spikes may be missed.                                                           |
+| `Console Viewer: <https://www.ni.com/documentation/en/veristand/latest/manual/viewing-console-output/>`_       | Debugging /         | Low         | - Periodic snapshot of utilization, transients and spikes may be missed.                                                           |
 |                      | Benchmarking CPU    |             | - Requires the RT Console Viewer daemon.                                                                                           |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
 | RT Debug String      | Debugging           | N/A         | - Incurs overhead, especially when the console window requires a redraw.                                                           |
