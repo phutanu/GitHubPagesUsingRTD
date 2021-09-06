@@ -74,6 +74,9 @@ Some text
 | Debugging Tools      |                     |             | - LabVIEW debugging hooks do affect timing                                                                                         |
 |                      |                     |             | - Execution highlighting drastically affects VI timing                                                                             |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+```
+
+```
 | Console Viewer       | Debugging           | Low         | - Periodic snapshot of utilization, transients and spikes may be missed                                                            |
 |                      | Benchmarking CPU    |             | - Requires the RT Console Viewer daemon                                                                                            |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
