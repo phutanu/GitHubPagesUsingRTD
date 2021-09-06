@@ -79,11 +79,11 @@ Some text
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
 | RT Debug String      | Debugging           | N/A         | - Incurs overhead, especially when the console window requires a redraw                                                            |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
-```
-```
 | Distributed System   | Benchmarking CPU    | Medium      | - Periodic snapshot of utilization, transients and spikes may be missed                                                            |
 | Manager              | Benchmarking RAM    |             | - Requires the System State Publisher daemon                                                                                       |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+```
+```
 | System Channels      | Benchmarking timing | High        | -	Knowledge of the operator's System Definition is required to make good use of the system channels for benchmarking              |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
 ```
