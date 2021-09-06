@@ -70,29 +70,28 @@ Some text
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Technique            | Useful For          | Granularity | Caveats                                                                                                                            |
 +======================+=====================+=============+====================================================================================================================================+
-| LabVIEW's Built-in   | Debugging           | N/A         | - Useful before the LabVIEW code has been merged into the custom device framework                                                  |
-| Debugging Tools      |                     |             | - LabVIEW debugging hooks do affect timing                                                                                         |
-|                      |                     |             | - Execution highlighting drastically affects VI timing                                                                             |
+| LabVIEW's Built-in   | Debugging           | N/A         | - Useful before the LabVIEW code has been merged into the custom device framework.                                                 |
+| Debugging Tools      |                     |             | - LabVIEW debugging hooks do affect timing.                                                                                        |
+|                      |                     |             | - Execution highlighting drastically affects VI timing.                                                                            |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
-| Console Viewer       | Debugging           | Low         | - Periodic snapshot of utilization, transients and spikes may be missed                                                            |
-|                      | Benchmarking CPU    |             | - Requires the RT Console Viewer daemon                                                                                            |
+| Console Viewer       | Debugging           | Low         | - Periodic snapshot of utilization, transients and spikes may be missed.                                                           |
+|                      | Benchmarking CPU    |             | - Requires the RT Console Viewer daemon.                                                                                           |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
-| RT Debug String      | Debugging           | N/A         | - Incurs overhead, especially when the console window requires a redraw                                                            |
+| RT Debug String      | Debugging           | N/A         | - Incurs overhead, especially when the console window requires a redraw.                                                           |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
-| Distributed System   | Benchmarking CPU    | Medium      | - Periodic snapshot of utilization, transients and spikes may be missed                                                            |
-| Manager              | Benchmarking RAM    |             | - Requires the System State Publisher daemon                                                                                       |
+| Distributed System   | Benchmarking        | Medium      | - Periodic snapshot of utilization, transients and spikes may be missed.                                                           |
+| Manager              | CPU / RAM           |             | - Requires the System State Publisher daemon.                                                                                      |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
-| System Channels      | Benchmarking timing | High        | - Knowledge of the operator's System Definition is required to make good use of the system channels for benchmarking               |
+| System Channels      | Benchmarking timing | High        | - Knowledge of the operator's System Definition is required to make good use of the system channels for benchmarking.              |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
-| System Monitor       | Benchmarking CPU    | High        | - This add-on is an asynchronous custom device. The higher you configure the custom device loop rate, the more overhead it adds.   |
-| Add-on               | Benchmarking RAM    |             |                                                                                                                                    |
+| Telemetry            | Benchmarking        | High        | - This is an in-line asynchronous custom device. It logs each CPU core usage, along with RAM and system channels to a TDMS file.   |
+| Custom Device        | CPU / RAM           |             |                                                                                                                                    |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Real-Time Execution  | Debugging           | Ultra High  | - Execution trace logs contain a vast amount of detailed information. They require a good deal of domain expertise interpret.      |
 | Tracing              | Benchmarking        |             | - Using the tool effectively requires starting and stopping the trace directly around the period of interest.                      |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Additional Debugging | Debugging           |             | - Must request from NI                                                                                                             |
-| Options              |                     |             | - NI must approve its use                                                                                                          |
-|                      |                     |             | - Considered a last resort only                                                                                                    |
+| Options              |                     |             | - Considered a last resort only                                                                                                    |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
 ```
 
