@@ -87,11 +87,14 @@ split
 |                    |                   |           |   interpret.                                                    |
 |                    |                   |           |-	Using the tool effectively requires starting and stopping the |
 |                    |                   |           |   trace directly around the period of interest.                 |
-+--------------------+-------------------+-----------+-----------------------------------------------------------------+
-|Additional Debugging|Debugging          |           |-	Must request from NI                                          |
-|Options             |                   |           |-	NI must approve its use                                       |
-|                    |                   |           |-	Considered a last resort only                                 |
-+--------------------+-------------------+-----------+-----------------------------------------------------------------+
+```
+
+```eval_rst
++---------------------+--------------------+-----------+-----------------------------------------------------------------+
+|Additional Debugging |Debugging           |           |-	Must request from NI                                           |
+|Options              |                    |           |-	NI must approve its use                                        |
+|                     |                    |           |-	Considered a last resort only                                  |
++---------------------+--------------------+-----------+-----------------------------------------------------------------+
 ```
 
 END Page1
