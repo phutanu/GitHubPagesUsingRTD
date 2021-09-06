@@ -103,7 +103,7 @@ Some text
 +---------------------+--------------------+-----------+-----------------------------------------------------------------+
 | Additional Debugging | Debugging           |           | -	Must request from NI                                           |
 | Options              |                    |           | -	NI must approve its use                                        |
-|                     |                    |           | -	Considered a last resort only                                  |
+|                       |                    |           | -	Considered a last resort only                                  |
 +---------------------+--------------------+-----------+-----------------------------------------------------------------+
 ```
 
