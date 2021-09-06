@@ -69,9 +69,9 @@ Some text
 +-----------------+------------------+-------------+----------+-------------------------------------------------------------------------------------------------------------------------+
 | Tool            | Purpose          | Granularity | Location | Details                                                                                                                 |
 +=================+==================+=============+==========+=========================================================================================================================+
-| LabVIEW         | Debugging        | N/A         | - `Console Viewer: <https://www.ni.com/documentation/en/veristand/latest/manual/viewing-console-output/>`_                         |
-| Debugging       |                  |             | - LabVIEW                                                                                                                          |
-| Tools           |                  |             | - Execution                                                                                                                        |
+| LabVIEW         | Debugging        | N/A         |          | - `Console Viewer: <https://www.ni.com/documentation/en/veristand/latest/manual/viewing-console-output/>`_              |
+| Debugging       |                  |             |          | - LabVIEW                                                                                                               |
+| Tools           |                  |             |          | - Execution                                                                                                             |
 +-----------------+------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
 ```
 
