@@ -51,15 +51,19 @@ Some text
 # Heading 4
 
 ```eval_rst
-+-----------------------------------+-------------------+-----------+-----------------------------------------------------------------------------------+
-|Technique                          |Useful For         |Granularity|Caveats                                                                            |
-+===================================+===================+===========+===================================================================================+
-|LabVIEW's Built-in Debugging Tools |Debugging          |N/A        |-	Useful before the LabVIEW code has been merged into the custom device framework |
-|                                   |                   |           |-	LabVIEW debugging hooks do affect timing                      |
-|                                   |                   |           |-	Execution highlighting drastically affects VI timing          |
 +--------------------+-------------------+-----------+-----------------------------------------------------------------+
+|Technique           |Useful For         |Granularity|Caveats                                                          |
++====================+===================+===========+=================================================================+
 ```
+
+split
+
 ```
+|LabVIEW's Built-in  |Debugging          |N/A        |-	Useful before the LabVIEW code has been merged into the       |
+|Debugging Tools     |                   |           |   custom device framework                                       |
+|                    |                   |           |-	LabVIEW debugging hooks do affect timing                      |
+|                    |                   |           |-	Execution highlighting drastically affects VI timing          |
++--------------------+-------------------+-----------+-----------------------------------------------------------------+
 |Console Viewer      |Debugging          |Low        |-	Periodic snapshot of utilization, transients and spikes may be|
 |                    |Benchmarking CPU   |           |   missed                                                        |
 |                    |                   |           |-	Requires the RT Console Viewer daemon                         |
