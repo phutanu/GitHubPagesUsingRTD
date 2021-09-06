@@ -84,6 +84,9 @@ Some text
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
 | System Channels      | Benchmarking timing | High        | -	Knowledge of the operator's System Definition is required to make good use of the system channels for benchmarking              |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
+```
+
+```
 | System Monitor       | Benchmarking CPU    | High        | - This add-on is an asynchronous custom device. The higher you configure the custom device loop rate, the more overhead it adds.   |
 | Add-on               | Benchmarking RAM    |             |                                                                                                                                    |
 +----------------------+---------------------+-------------+------------------------------------------------------------------------------------------------------------------------------------+
