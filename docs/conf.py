@@ -294,7 +294,7 @@ texinfo_documents = [
 def setup(app):
     app.add_config_value('recommonmark_config', {
         #'url_resolver': lambda url: github_doc_root + url,
-        'auto_toc_tree_section': 'Contents',
+        'auto_toc_tree_section': 'Index',
         'enable_math': False,
         'enable_inline_math': False,
         'enable_eval_rst': True,
