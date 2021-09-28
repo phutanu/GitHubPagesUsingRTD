@@ -10,6 +10,8 @@ Some other text here
 
 ### Sub-sub chapter there
 
+[](images/Figure_6.jpg)
+
 Some sub-chapter text here
 
 END Page2
