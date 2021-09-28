@@ -24,7 +24,6 @@ Some text
 * fourt
 * xth
 * zeth
-* ...
 
 
 ## Heading2.1
