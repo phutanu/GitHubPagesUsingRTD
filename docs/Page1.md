@@ -18,13 +18,13 @@ Some text
 
 # Heading 2
 
-- first list element
-- second list element
-- third
-- fourt
-- xth
-- zeth
-- ...
+* first list element
+* second list element
+* third
+* fourt
+* xth
+* zeth
+* ...
 
 
 ## Heading2.1
@@ -39,8 +39,8 @@ Some text
 ### Heading 2.1.1
 
 1. combined list
-    2. sub-element
-    3. sub-sub element
+    - sub-element
+    - sub-sub element
 4. second main element
 
 1. test
