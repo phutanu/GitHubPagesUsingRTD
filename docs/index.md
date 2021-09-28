@@ -7,7 +7,9 @@ Whenever you commit to this repository, Read the Docs service will run to rebuil
 #### Contents
 
    + [Page1](Page1.md)
+
    + [Page3](Page3.md)
+
    + [Page2](Page2.md)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
