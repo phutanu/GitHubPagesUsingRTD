@@ -6,34 +6,9 @@ Whenever you commit to this repository, Read the Docs service will run to rebuil
 
 #### Contents
 
-* [Page1](Page1.md)
-* [Page3](Page3.md)
-* [Page2](Page2.md)
-
-# Header 1
-
-Text Header 1
-
-## Header 2
-
-Text Header 2
-
-### Header 3
-
-Text Header 3
-
-#### Header 4
-
-Text Header 4
-
-##### Header 5
-
-Text Header 5
-
-###### Header 6
-
-Text Header 6
-
+   + [Page1](Page1.md)
+   + [Page3](Page3.md)
+   + [Page2](Page2.md)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -81,3 +56,27 @@ Text Header 6
 #### Sub-sub chapter
 
 ## Apendix
+
+# Header 1
+
+Text Header 1
+
+## Header 2
+
+Text Header 2
+
+### Header 3
+
+Text Header 3
+
+#### Header 4
+
+Text Header 4
+
+##### Header 5
+
+Text Header 5
+
+###### Header 6
+
+Text Header 6
