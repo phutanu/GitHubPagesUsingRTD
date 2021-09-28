@@ -10,11 +10,30 @@ Whenever you commit to this repository, Read the Docs service will run to rebuil
 * [Page3](Page3.md)
 * [Page2](Page2.md)
 
-#### Markdown
+# Header 1
 
-#### Sub-chapter
+Text Header 1
 
-#### Sub-sub chapter
+## Header 2
+
+Text Header 2
+
+### Header 3
+
+Text Header 3
+
+#### Header 4
+
+Text Header 4
+
+##### Header 5
+
+Text Header 5
+
+###### Header 6
+
+Text Header 6
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
