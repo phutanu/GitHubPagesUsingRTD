@@ -10,7 +10,7 @@ Some other text here
 
 ### Sub-sub chapter there
 
-[Test Image](images/Figure_6.jpg)
+![Test Image](images/Figure_6.jpg)
 
 Some sub-chapter text here
 
